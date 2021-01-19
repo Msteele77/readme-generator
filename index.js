@@ -49,16 +49,15 @@ const questions = [
     type: "input",
     name: "email",
     message: "Please provide your email address"  
-    
     }
 ];
 
 
 
 // TODO: Create a function to write README file
-inquirer.prompt(questions).then(answers => {
+inquirer.prompt(questions).then(function(data) {
     console.log(answers);
-        fs.writeFile("README.md", generateMarkdown(answers), function(err) {
+        fs.writeFile("README.md", generateMarkdown(data), function(err) {
           if (err) {
             throw(err);
             }
