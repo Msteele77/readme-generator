@@ -1,6 +1,6 @@
 
   
-# **msteele**
+# ****
 
 
 # Table of Contents
@@ -14,19 +14,19 @@
 * [Questions] (#questions)
 
 # Project Description
-1
+
 
 # Installation Instructions
-mse
+
 
 # Usage
-undefined
+
 
 # Contribution Guidelines
-er
+
 
 ## Test Instructions
-rferfe
+
 
 ## License
 
