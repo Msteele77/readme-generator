@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const inquirer = require('inquirer');
-const fs                = require("fs");
-const generateMarkdown  = require("./utils/generateMarkdown");
-const axios = require("axios");
+const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
+//const axios = require("axios");
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = data => {
     return inquirer.prompt([
     {
@@ -24,32 +24,31 @@ const questions = data => {
     },
     {
     type: "input",
-    name: "contributionGuidelines",
+    name: "contribution",
     message: "Please enter contribution requirements"
     },
     {
     type: "input",
-    name: "testInstructions",
+    name: "test",
     message: "Enter your test instructions"
-    }
-    ])
+    },
     {
     type: "checkbox",
     name: "license",
-    message: "Please select a license"
+    message: "Please select a license",
     choices: ["MIT", "GNU GPLv3", "Mozilla Public License 2.0", "Apache", "None"]
-    }
+    },
     {
     type: "input",
-    name: "",
-    message: ""    
-    }
+    name: "username",
+    message: "What is the username of your GitHub Profile?"    
+    },
     {
     type: "input",
-    name: "",
-    message: ""    
+    name: "email",
+    message: "Please provide your email address"    
     }
-
+    ])
     .then(answers => console.log(answers));
 };
 
