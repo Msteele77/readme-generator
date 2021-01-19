@@ -17,7 +17,7 @@ function generateMarkdown(data) {
 # **${data.title}**
 
 
-# Table of Contents
+## Table of Contents
 
 * [Project Description] (#description)
 * [Installation Instructions] (#installation)
@@ -27,25 +27,25 @@ function generateMarkdown(data) {
 * [License] (#license)
 * [Questions] (#questions)
 
-# Project Description
+## Project Description
 ${data.description}
 
-# Installation Instructions
+## Installation Instructions
 ${data.installation}
 
-# Usage
+## Usage
 ${data.usage}
 
-# Contribution Guidelines
+## Contribution Guidelines
 ${data.contribution}
 
-# Test Instructions
+## Test Instructions
 ${data.test}
 
-# License
+#3 License
 ${data.license}
 
-# Questions
+## Questions
 Please reach out if you have any questions by emailing 
 
 
