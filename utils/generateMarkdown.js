@@ -26,26 +26,23 @@ function generateMarkdown(data) {
 * [License](#license)
 * [Questions](#questions)
 
-## Project Description
+## Project Description <a id="project-description"></a>
 ${data.description}
 
-## Installation Instructions
+## Installation Instructions <a id="installation-instructions"></a>
 ${data.installation}
 
-## Usage
-${data.usage}
-
-## Contribution
+## Contribution <a id="contribution-guidelines"></a>
 ${data.contribution}
 
-## Test Instructions
+## Test Instructions <a id="test-instructions"></a>
 ${data.test}
 
-## License
+## License <a id="license"></a>
 ${data.license}
 
-## Questions
-Please reach out if you have any questions by emailing ${data.email} (mailto:" + data.email}.
+## Questions <a id="questions"></a>
+Please reach out if you have any questions by emailing ${data.email}.
 
 `;
 }
