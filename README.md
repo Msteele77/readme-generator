@@ -1,17 +1,17 @@
 
   
-# **1**
+# 1
 
 
 ## Table of Contents
 
-- [Project Description] (#description)
-- [Installation Instructions] (#installation)
-- [Usage] (#usage)
-- [Contribution Guidelines] (#contribution)
-- [Test Instructions] (#test)
-- [License] (#license)
-- [Questions] (#questions)
+* [Project Description] (#project-description)
+* [Installation Instructions] (#installation-instructions)
+* [Usage] (#usage)
+* [Contribution Guidelines] (#contribution-guidelines)
+* [Test Instructions] (#test-instructions)
+* [License] (#license)
+* [Questions] (#questions)
 
 ## Project Description
 2
@@ -29,10 +29,8 @@ undefined
 5
 
 #3 License
-
+GNU GPLv3,Mozilla Public License 2.0
 
 ## Questions
-Please reach out if you have any questions by emailing 
-
-
+Please reach out if you have any questions by emailing 5.
 

@@ -21,7 +21,6 @@ function generateMarkdown(data) {
 
 * [Project Description] (#project-description)
 * [Installation Instructions] (#installation-instructions)
-* [Usage] (#usage)
 * [Contribution Guidelines] (#contribution-guidelines)
 * [Test Instructions] (#test-instructions)
 * [License] (#license)
@@ -36,17 +35,17 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-## Contribution Guidelines
+## Contribution
 ${data.contribution}
 
 ## Test Instructions
 ${data.test}
 
-#3 License
+## License
 ${data.license}
 
 ## Questions
-Please reach out if you have any questions by emailing ${data.email}.
+Please reach out if you have any questions by emailing ${data.email} (mailto:" + data.email}.
 
 `;
 }
