@@ -7,7 +7,6 @@
 
 * [Project Description] (#project-description)
 * [Installation Instructions] (#installation-instructions)
-* [Usage] (#usage)
 * [Contribution Guidelines] (#contribution-guidelines)
 * [Test Instructions] (#test-instructions)
 * [License] (#license)
@@ -22,15 +21,15 @@
 ## Usage
 undefined
 
-## Contribution Guidelines
+## Contribution
 4
 
 ## Test Instructions
 5
 
-#3 License
-GNU GPLv3,Mozilla Public License 2.0
+## License
+
 
 ## Questions
-Please reach out if you have any questions by emailing 5.
+Please reach out if you have any questions by emailing 7 (mailto:" + data.email}.
 
