@@ -19,12 +19,12 @@ function generateMarkdown(data) {
 
 ## Table of Contents
 
-* [Project Description] (#project-description)
-* [Installation Instructions] (#installation-instructions)
-* [Contribution Guidelines] (#contribution-guidelines)
-* [Test Instructions] (#test-instructions)
-* [License] (#license)
-* [Questions] (#questions)
+* [Project Description](#project-description)
+* [Installation Instructions](#installation-instructions)
+* [Contribution Guidelines](#contribution-guidelines)
+* [Test Instructions](#test-instructions)
+* [License](#license)
+* [Questions](#questions)
 
 ## Project Description
 ${data.description}
