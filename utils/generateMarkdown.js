@@ -43,7 +43,7 @@ ${data.license}
 
 ## Questions <a id="questions"></a>
 Please reach out if you have any questions by emailing ${data.email}.
-
+Github Account: ${data.username}
 `;
 }
 

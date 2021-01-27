@@ -28,5 +28,5 @@
 
 
 ## Questions <a id="questions"></a>
-Please reach out if you have any questions by emailing 7 (mailto:" + data.email}.
-
+Please reach out if you have any questions by emailing chey@yahoo.
+Github Account: msteele77

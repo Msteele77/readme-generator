@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown.js");
-//const axios = require("axios");
+const axios = require("axios");
 
 
 
@@ -57,18 +57,25 @@ const questions = [
 // TODO: Create a function to write README file
 inquirer.prompt(questions).then(function(data) {
     console.log(data);
-        fs.writeFile("README.md", generateMarkdown(data), function(err) {
+        fs.writeFile("README.md", generateMarkdown(data, githubInfo), function(err) {
           if (err) {
             throw(err);
-            }
+            };
     console.log("README file was created successfully.");
-           }
-    )});
+           });
+    });
 
+
+    const githubInfo = {
+        getUsername(username) {
+    axios.get("https://api.github.com/users/" + username)
+          .then(data => {
+              console.log(data.username);
+        });
+    }}
     
-
-
-
+      
+      
 // TODO: Create a function to initialize app
 function init () {}
 
