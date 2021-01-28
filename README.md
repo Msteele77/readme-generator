@@ -1,6 +1,6 @@
 
   
-# 1
+# READ ME GENERATOR
 
 
 ## Table of Contents
@@ -13,20 +13,10 @@
 * [Questions](#questions)
 
 ## Project Description <a id="project-description"></a>
-2
+This is a command line application that uses node.js to obtain user input to dynamically generate a professional readme.md file. 
 
-## Installation Instructions <a id="installation-instructions"></a>
-3
+## Installation Instructions <a id="installation-instructions">
 
-## Contribution <a id="contribution-guidelines"></a>
-4
+## Demo
 
-## Test Instructions <a id="test-instructions"></a>
-5
-
-## License <a id="license"></a>
-
-
-## Questions <a id="questions"></a>
-Please reach out if you have any questions by emailing chey@yahoo.
-Github Account: msteele77
+<iframe src="https://drive.google.com/file/d/1f63Ws8zbc8P1cjRByUXcFjCZLF9dfMv7/preview" width="640" height="480"></iframe>
