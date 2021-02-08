@@ -20,4 +20,4 @@ This is a command line application that uses node.js to obtain user input to dyn
 ## Demo
 
 
-
+![alt text](https://github.com/Msteele77/readme-generator/blob/master/assets/preview.gif)
