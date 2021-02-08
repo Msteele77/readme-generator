@@ -19,4 +19,5 @@ This is a command line application that uses node.js to obtain user input to dyn
 
 ## Demo
 
-<iframe src="https://drive.google.com/file/d/1f63Ws8zbc8P1cjRByUXcFjCZLF9dfMv7/preview" width="640" height="480"></iframe>
+
+
