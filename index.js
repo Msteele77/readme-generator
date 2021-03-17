@@ -55,9 +55,9 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-inquirer.prompt(questions).then(function(data) {
-    console.log(data);
-        fs.writeFile("./generated/README.md", generateMarkdown(data, githubInfo), function(err) {
+inquirer.prompt(questions).then(function(answers) {
+    console.log(answers);
+        fs.writeFile("./generated/README.md", generateMarkdown(answers, githubInfo), function(err) {
           if (err) {
             throw(err);
             };
@@ -69,8 +69,8 @@ inquirer.prompt(questions).then(function(data) {
     const githubInfo = {
         getUsername(username) {
     axios.get("https://api.github.com/users/" + username)
-          .then(data => {
-              console.log(data.username);
+          .then(answers => {
+              console.log(answers.username);
         });
     }}
     
