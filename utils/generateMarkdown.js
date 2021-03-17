@@ -17,6 +17,10 @@ function generateMarkdown(data) {
 # ${data.title}
 
 
+
+
+
+
 ## Table of Contents
 
 * [Project Description](#project-description)
@@ -43,7 +47,7 @@ ${data.license}
 
 ## Questions <a id="questions"></a>
 Please reach out if you have any questions by emailing ${data.email}.
-Github Account: ${data.username}
+Github Account: ${data.username} [${data.username}](https://github.com/${data.username})<br />
 `;
 }
 

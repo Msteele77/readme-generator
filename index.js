@@ -27,7 +27,7 @@ const questions = [
     {
     type: "input",
     name: "contribution",
-    message: "Please enter contribution requirements"
+    message: "Who contributed to this project?"
     },
     {
     type: "input",
@@ -57,7 +57,7 @@ const questions = [
 // TODO: Create a function to write README file
 inquirer.prompt(questions).then(function(data) {
     console.log(data);
-        fs.writeFile("README.md", generateMarkdown(data, githubInfo), function(err) {
+        fs.writeFile("./generated/README.md", generateMarkdown(data, githubInfo), function(err) {
           if (err) {
             throw(err);
             };
