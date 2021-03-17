@@ -5,8 +5,6 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 const axios = require("axios");
 
 
-
-
 // Array of questions for user input
 const questions = [
     {
@@ -57,6 +55,7 @@ const questions = [
 // TODO: Create a function to write README file
 inquirer.prompt(questions).then(function(answers) {
     console.log(answers);
+    
         fs.writeFile("./generated/README.md", generateMarkdown(answers, githubInfo), function(err) {
           if (err) {
             throw(err);
@@ -76,10 +75,5 @@ inquirer.prompt(questions).then(function(answers) {
     
       
       
-// TODO: Create a function to initialize app
-function init () {}
-
-// Function call to initialize app
-init();
 
     
